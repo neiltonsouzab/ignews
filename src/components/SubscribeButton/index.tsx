@@ -32,6 +32,7 @@ export function SubscribeButton() {
         sessionId,
       });
     } catch (err) {
+      console.log(err);
       alert(err.message);
     }
   }
